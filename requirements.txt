@@ -1,6 +1,6 @@
-streamlit
-opencv-python
-numpy 
-mediapipe
-Hand-Tracking-Module
-pyautogui
+streamlit==1.26.0  # Specify the version you are working with
+opencv-python-headless==4.8.0.76  # The headless version of OpenCV
+numpy==1.23.5
+mediapipe==0.10.0
+Hand-Tracking-Module  # If this is a custom module, ensure it’s properly included
+pyautogui==0.9.54
