@@ -1,6 +1,6 @@
 streamlit
 opencv-python-headless==4.5.5.64
-numpy
+numpy==1.23.5  # Add a specific version compatible with OpenCV
 mediapipe
 Hand-Tracking-Module
 pyautogui
