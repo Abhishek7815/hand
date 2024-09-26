@@ -6,15 +6,10 @@ import sys
 import pyautogui
 import time
 
-# Add the current directory to Python's module search path
-current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(current_dir)
-
 try:
     from hand_tracking import HandTracker
 except ImportError as e:
     st.error(f"Failed to import HandTracker: {e}")
-    st.error(f"Current directory: {current_dir}")
     st.error(f"Python path: {sys.path}")
     sys.exit(1)
 
