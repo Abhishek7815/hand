@@ -5,13 +5,7 @@ import os
 import sys
 import pyautogui
 import time
-
-try:
-    from hand_tracking import HandTracker
-except ImportError as e:
-    st.error(f"Failed to import HandTracker: {e}")
-    st.error(f"Python path: {sys.path}")
-    sys.exit(1)
+from hand_tracking import HandTracker
 
 def perform_media_action(finger_count):
     if finger_count == 1:
