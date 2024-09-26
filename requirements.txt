@@ -1,6 +1,8 @@
 streamlit
-opencv-python
+opencv-python-headless==4.5.5.64
 numpy
 mediapipe
 Hand-Tracking-Module
 pyautogui
+libgl1-mesa-glx
+libglib2.0-0
